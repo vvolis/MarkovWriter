@@ -8,7 +8,7 @@
 #include <ctime>
 using namespace std;
 
-const int PREFIX_LENGTH = 1; //Number of consecutive prefixes to decide suffix. [1 too random, 3 needs greater input than navigilabs]
+const int PREFIX_LENGTH = 2; //Number of consecutive prefixes to decide suffix. [1 too random, 3 needs greater input than navigilabs]
 const char NONWORD[] = "\n"; //For matching with single-word prefixes.
 const int MAXWORDS= 10000; // maximum words generated, failsafe for infinite word-loops
 
